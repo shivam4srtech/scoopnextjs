@@ -1,0 +1,93 @@
+.footer-items{
+    padding: 1rem;
+}
+.footerbox{
+    margin: 1.6rem auto;
+    display: block;
+}
+.footerbox h4{
+    font-weight: 900;
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 1.2px;
+}
+.footerbox a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: .9rem;
+    font-size: .9rem;
+    letter-spacing: 1.1px;
+    line-height: 1.8rem;
+}
+.footerbox i{
+    margin-right: 1rem;
+}
+.footerbox form input{
+    width: 50%;
+    outline: none;
+    padding: .3rem;
+    height: 2.2rem;
+    border: 1px solid #D9D7D7;
+    border-right: none;
+}
+.footerbox form button{
+    border-top-right-radius:  5px;
+    border-bottom-right-radius: 5px;
+    letter-spacing: .1rem;
+    padding: .3rem;
+    height: 2.2rem;
+    border: 1px solid #D9D7D7;
+    border-left: none;
+}
+.footerbox p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.footerbox p a{
+    color: #067377;
+    font-weight: 700;
+}
+.footerbox p a :hover{
+    text-decoration: underline;
+}
+#social a i{
+    height: 2.2rem;
+    width: 2.2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 50%;
+}
+#social #fb, #linkedln{
+    background-color: #067377;
+    margin: .6rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: #000;
+    height: 5.5rem;
+    margin-bottom: none;
+}
+.footer .row{
+    text-align: center;
+}
+.footer .row p{
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.footer .row i{
+    color: #fff;
+    font-size: 2.8rem;
+}
+@media (max-width: 700px){
+    .footer .row p{
+        font-size: .7rem;
+    }
+}

@@ -1,0 +1,43 @@
+
+.navigation {
+    margin-bottom: 2.1em;
+}
+.navigation span{
+    color: #714e35;
+    font-size: .9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.navigation span a{
+    text-decoration: none;
+    color: #4183c4;
+    letter-spacing: .1rem;
+}
+.cat{
+    border-bottom: 1px solid #D9D7D7;
+    margin-bottom: 2.5rem;
+    margin-top: 1.4rem;
+    padding-top: .5rem;
+}
+.categories{
+    margin-bottom: 2rem;
+}
+.categories h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: .9px;
+}
+.store{
+    margin: 1.5rem auto;
+    line-height: 2rem;
+}
+.store a{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: .5px;
+    font-weight: 700;
+}
+.store a span{
+    font-size: 1rem;
+}

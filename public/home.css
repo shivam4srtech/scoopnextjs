@@ -1,0 +1,519 @@
+body{
+    min-width: 370px;
+}
+
+.container h1{
+    margin: 1.9rem 0px;
+    font-weight: 600;
+    font-size: 1.7rem;
+    letter-spacing: .87px;
+    color: #000;
+}
+.container h3{
+    font-weight: 400;
+    letter-spacing: .35px;
+    font-size: 1.3rem;
+    color: #222;
+}
+.homeimg{
+    background-color: #e9f5f5;
+    padding: 2.4rem 0px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.container-fluid .homecontainer{
+    border-radius: 5px;
+    background-color: #fff;
+}
+.container-fluid .homecontainer .row .mychild h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    line-height: 1rem;
+}
+.container-fluid .homecontainer .row .mychild h3{
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: .35px;
+}
+.container-fluid .homecontainer .row .mychild button{
+    height: 3rem;
+    width: 10rem;
+    margin-top: 1.9rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #067377;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-size: 1.2rem;
+}
+@media(min-width:350px) and (max-width: 1045px){
+    .container-fluid .homecontainer .row .mychild h1{
+        font-size: 1.5rem;
+        letter-spacing: 0px;
+        line-height: .5rem;
+    }
+    .container-fluid .homecontainer .row .mychild h3{
+        font-size: 1.2rem;
+    }
+    #homebtn{
+        margin-bottom: 1rem;
+    }
+}
+#homebtn:hover{
+    background-color: #03b7e1;
+    transition: .4s ease;
+}
+@media(max-width:1000px){
+    .container-fluid .homecontainer .row .mychild{
+        width: 100%;
+    }
+    #bgimage{
+        width: 100%;
+    }
+}
+#macylogo{
+    width: 18rem;
+    height: 5rem;
+    margin-top: 1rem;
+}
+@media(min-width:570px) and (max-width: 660px){
+    #macylogo{
+        width: 15rem;
+        height: 4rem;
+        margin-top: 2rem
+    }
+}
+#bgimage{
+    background-image: url(../images/homeimgavif.avif);
+    height: 20rem;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+    border-top-left-radius: 0px 0px;
+    border-bottom-left-radius: 0px 0px;
+    background-position: right, left; 
+}
+@media(max-width:890px){
+    #bgimage{
+        height: 15rem;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center, center; 
+    }
+}
+@media(max-width:1000px){
+    #bgimage{
+        border-top-right-radius: 0px 0px;
+        border-bottom-left-radius: 5px 5px;
+    }
+}
+@media(min-width:880px) and (max-width: 1000px){
+    #bgimage{
+        margin: auto;
+        width: 100%;
+        background-position: center, center; 
+    }
+}
+
+/* **************POPULAR STORES******************************* */
+.allstore .row h1{
+    font-weight: 600;
+    color: #000c2d;
+    letter-spacing: .7px;
+}
+.allstore{
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+}
+#imgbg{
+    padding-top: .2rem;
+    padding-bottom: 1rem;
+    background-color: #f0f8f9;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    cursor: pointer;
+}
+#storebg, #storebg2, #storebg3, #storebg4, #storebg5, #storebg6, #storebg7, #storebg8 {
+    background-image: url(../images/23andme-copy.webp);
+    width: 100%;
+    height: 11.5rem;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    cursor: pointer;
+}
+#storebg2{
+    background-image: url(../images/ABC-CARPET-HOME-copy.webp);
+}
+#storebg3{
+    background-image: url(../images/ABC-MOUSE.COM-copy.webp);
+}
+#storebg4{
+    background-image: url(../images/ADAM-EVE-copy.webp);
+}
+#storebg5{
+    background-image: url(../images/Baby-Earth-copy.webp);
+}
+#storebg6{
+    background-image: url(../images/Albeebaby-copy.webp);
+}
+#storebg7{
+    background-image: url(../images/amazon-copy.webp);
+}
+#storebg8{
+    background-image: url(../images/appaman-copy.webp);
+}
+
+.container .row .mystore{
+    margin-bottom: 2rem;
+}
+
+.container .row .mystore h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #4db6ba;
+    font-size: 1.3rem;
+    height: 4rem;
+}
+.container .row .mystore p{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: .9rem;
+    margin-top: 0px;
+    height: 7rem;
+    cursor: not-allowed;
+}
+#visitstr{
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    font-weight: 400;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: .9rem;
+    margin-top: 0px;
+    height: 7rem;
+    cursor: not-allowed;
+}
+@media(max-width:575px){
+    .container .row .mystore p {
+        height: auto;
+    }
+    .container .row .mystore h1 {
+        height: auto;
+    }
+}
+.container .row .mystore p a{
+    text-decoration: none;
+    color: #5390d0; 
+}
+.container .row .mystore #visitstr a :hover{
+    color: orangered;
+}
+#imgbg button{
+    color: #fff; 
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 2.5rem;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ff9900;
+}
+#imgbg button:hover{
+    background-color: #ff9900a3;
+    transition: .5s ease;
+}
+#imgbg button i{
+    margin-left: .2rem;
+}
+/* **************************SHOP BY CATEGORY******************************* */
+.shopbyc{
+    background-color: #f9fbfc;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-bottom: 3rem;
+}
+.shopbyc h1{
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    color: #07525e;
+    letter-spacing: .7px;
+    font-size: 1.7rem;
+}
+.shopbyc .container .row img{
+    margin: 1.5rem auto;
+    height: 5rem;
+    width: 5rem; 
+} 
+.shopbyc .container .row .text-center a{
+    text-decoration: none;
+    color: #07525e;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.coupons {
+    margin-bottom: .9rem;
+}
+/* ************************RECENT BLOGS************************************* */
+.blogcontainer{
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+}
+.container .row .blogs{
+    margin-bottom: 2rem;
+}
+.container .row .blogs img{
+    width: 100%;
+    height: 12rem;
+    border-radius: 5px;
+}
+.container .row .blogs a{
+    text-decoration: none;
+    color: #000c2d;
+}
+.container .row .blogs a p{
+    margin-top: 1rem;
+    height: 6rem;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    text-justify: inter-word;
+}
+.blogcontainer .row button{
+    width: 10%;
+    height: 2.8rem;
+    border-radius: 5px;
+    background-color: #ff9900;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: .8rem;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+.blogcontainer .row button:hover{
+    background-color: #ff9900ab;
+    transition: .3s ease;
+}
+@media(max-width:994px){
+    .blogcontainer .row button{
+       width: 60%;
+       display: flex;
+       margin: auto;
+    }
+}
+@media(min-width:994px) and (max-width:1280px) {
+    .blogcontainer .row button{
+       width: 15%;
+    }
+}
+/* *********************Sponsored***************************************** */
+.sponsoredsection{
+    background-color: #f9fbfc;
+    padding-top: 1.2rem;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+.sponsoredsection h1{
+    color: #000c2d;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.sponsoredsection .row .sponsored .d-flex{
+margin-bottom: 2.2rem;
+}
+.sponsoredsection .row .sponsored .d-flex .sponsoredimg img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    padding: .3rem;
+}
+.sponsoredsection .row .sponsored .d-flex .sponsoredtitle{
+    margin-left: .5rem;
+}
+.sponsoredsection .row .sponsored .d-flex .sponsoredtitle a{
+    text-decoration: none;
+   margin-bottom: 0px;
+   color: #1f2a47;
+   font-weight: 700;
+   font-size: 1rem;
+}
+.sponsoredsection .row .sponsored .d-flex .sponsoredtitle span{
+   color: #b8b9ba;
+   font-size: .9rem;
+   font-weight: 400;
+}
+#extra img{
+    background-color: #c21321;
+}
+#fivep img{
+    background-color: #000;
+}
+
+/* ******************************FAV DEALS******************************************* */
+.favbox{
+    margin-bottom: 3.5rem;
+}
+.favdeal h1{
+    color: #000c2d;
+    font-weight: 600;
+    letter-spacing: .7px;
+}
+.favdeal p{
+    font-family: 'Open Sans', sans-serif;
+    color: #bfbfbf;
+    font-weight: 400;
+    font-size: .9rem;
+}
+#favdealimg{
+    width: 100%;
+}
+.deal-logo{
+    background-color: #00989d;
+    height: 3.3rem;
+    width: 3.3rem;
+    border-radius: 50%;
+    margin-right: .3rem;
+}
+#deal-bg2{
+    background-color: #e11a2b;
+}
+#deal-bg3{
+    background-color: #f96302;
+}
+#deal-bg4{
+    background-color: #03b7e1;
+}
+.dealcontainer{
+    border-bottom: 2px solid #ececec;
+    margin-top: .8rem;
+}
+.deal-title p{
+    margin-bottom: .6rem;
+    font-weight: 700;
+    font-size: .8rem;
+    color: #222;
+    letter-spacing: .7px;
+}
+.deal-title span{
+    color: #6f7689;
+    font-size: .9rem;
+    font-weight: 400;
+}
+#dealss-btn{
+    margin: 1rem;
+}
+#dealss-btn button{
+    outline: none;
+    background-color: #ff9900;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    width: 7.5rem;
+    height: 3.1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+#dealss-btn :hover{
+    outline: none;
+    background-color: #ff99009e;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    width: 7.5rem;
+    height: 3.1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+@media(max-width:991px) {
+    #dealss-btn{
+      display: none;
+    }
+}
+.dealcontainer #bbtn{
+    display: flex;
+    margin: .7rem auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    height: 3.2rem;
+    outline: none;
+    border: none;
+    background-color: #ff9900;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: .5px;
+}
+@media(min-width:991px) and (max-width:5000px){
+    .dealcontainer #bbtn{
+      display: none;
+    }
+}
+/* **********************HOW COUPONS WORKS? */
+.use-coupon{
+    padding-top: 3.4rem;
+    padding-bottom: 3.5rem;
+    background-color: #d8ecef;
+    font-family: 'Lato', sans-serif;
+}
+.use-coupon h1{
+    color: #07525d;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.coupon-content h1{
+   font-weight: 600;
+   font-size: 1rem;
+   color: #07525d;
+
+}
+.coupon-content p{
+    font-family: "open sans", Helvetica, Arial, sans-serif;
+    color: #07525d;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: .9rem;
+}
+/* ***********************ABOUT SCOOP************************** */
+.aboutscoop{
+    border-bottom: 2px solid #ececec;
+    padding-bottom: 4.5rem;
+    margin-bottom: 3.5rem;
+}
+.about img{
+    width: 100%;
+}
+.aboutcontent h1{
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.aboutcontent p{
+    color: #666;
+    font-family: "open sans", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: .8rem;
+    line-height: 1.7rem;
+}
